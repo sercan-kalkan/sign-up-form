@@ -1,0 +1,60 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image {
+    width: 40%;
+    background-color: black;
+}
+
+.image>img {
+    width: 100%;
+}
+
+.form {
+    width: 60%;
+    background-color: rgb(234, 228, 228);
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 40px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+.form>form{
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ul>li{
+    list-style: none;
+}
+#form-controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(72, 72, 96);
+    color: white;
+    padding: 12px;
+}
