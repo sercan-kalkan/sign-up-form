@@ -8,8 +8,11 @@
 </head>
 <body>
     <div class="flex-container">
-        <div class="image">
-            <img src="images/close-up-hands-typing-key-board.jpg" alt="fingers on keyboard">
+        <div id="background">
+            <div id="slide">
+                <img src="images/TECH.png" alt="logo" id="logo">
+            </div>
+
         </div>
         <div class="form">
             <h2>Welcome to our special service for software engineers.</h2>
@@ -24,7 +27,7 @@
                                 <label for="username">FIRST NAME:</label>
                             </li>
                             <li>
-                                <input type="text" id="username">
+                                <input type="text" id="username" class="input">
                             </li>
                         </ul>
                         
@@ -33,7 +36,7 @@
                                 <label for="lastname">LAST NAME:</label>
                             </li>
                             <li>
-                                <input type="text" id="lastname" name="lastname">
+                                <input type="text" id="lastname" name="lastname" class="input">
                             </li>
                         </ul>
                         
@@ -45,7 +48,7 @@
                                 <label for="email">EMAIL:</label>
                             </li>
                             <li>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" class="input">
                             </li>
                         </ul>
 
@@ -54,7 +57,7 @@
                                 <label for="phone">PHONE NUMBER:</label>
                             </li>
                             <li>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" class="input">
                             </li>
                         </ul>
                     </div>
@@ -65,7 +68,7 @@
                                 <label for="password">PASSWORD:</label>
                             </li>
                             <li>
-                                <input type="password"  id="password" name="pass" required>
+                                <input type="password"  id="password" name="pass" required class="input">
                             </li>
                         </ul>
 
@@ -74,13 +77,13 @@
                                 <label for="confirm">CONFIRM PASSWORD:</label>
                             </li>
                             <li>
-                                <input type="password" id="confirm">
+                                <input type="password" id="confirm" class="input">
                             </li>
                         </ul>
                     </div>
                 </div>
             </form>
-            <button type="submit">Create Account</button>
+            <button type="submit" id="button">Create Account</button>
         </div>
     </di>
     <script src="main.js"></script>
