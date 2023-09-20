@@ -83,8 +83,8 @@ button {
 }
 
 .input {
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
 }
 
 input:focus {
